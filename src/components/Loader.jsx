@@ -4,9 +4,12 @@ import React from 'react'
 const Loader = () => {
   return (
     <Html>
-      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-        <div className="w-[10vw] h-[10vw] rounded-full">
-          Loading <span className="loading loading-dots loading-lg"></span>
+      <div className="w-full h-full flex justify-between items-center">
+        <div className="rounded-full text-white">
+          Loading 
+        </div>
+        <div className='pl-5'>
+          <span className="loading loading-dots loading-lg"></span>
         </div>
       </div>
     </Html>
